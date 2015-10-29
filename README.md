@@ -119,7 +119,6 @@ Retrieve all languages supported by the Google Translate API.
 Forks and pull requests welcome!
 
 # TODO
-* Make POST instead of GET requests when query is greater than 2k. Limit for POST is 5k
 * Add tests
 * Design a better way of defining API keys to allow use of multiple Google Translate API keys
 
