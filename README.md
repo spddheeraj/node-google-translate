@@ -1,7 +1,7 @@
 Google Translate API for Node
 =====================
 
-A Node.js module for working with the [Google Translate API](https://developers.google.com/translate/v2/using_rest). 
+A Node.js module for working with the [Google Cloud Translation API](https://cloud.google.com/translate/docs/). 
 
 Automatically handles bulk translations that exceed the Google Translation API query limit.
 
@@ -16,7 +16,7 @@ Install via [npm](http://npmjs.org/)
 Usage overview
 ----------
 
-Require module and pass in your API key ([get one here](https://developers.google.com/translate/v2/pricing)).
+Require module and pass in your API Google project API key after enabling the API service. Note: This module currently doesn't support oauth authentication.
   
     var googleTranslate = require('google-translate')(apiKey);
     
@@ -119,9 +119,11 @@ Retrieve all languages supported by the Google Translate API.
 Forks and pull requests welcome!
 
 # TODO
+* Add authentication using new Google Cloud oauth token
 * Add tests
-* Design a better way of defining API keys to allow use of multiple Google Translate API keys
+* Better way of defining API keys to allow use of multiple Google Translate API keys
+* Changelog
 
 # Author
 
-Brandon Paton. Email me if you have any questions: [bp@brandonpaton.com](mailto:bp@brandonpaton.com). Supported by [Localize.js](https://localizejs.com).
+Maintained by [Localize](https://localizejs.com).
