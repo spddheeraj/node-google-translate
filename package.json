@@ -3,10 +3,10 @@
   "name": "google-translate",
   "description": "Google Translate API for Node.js",
   "version": "1.0.9",
-  "homepage": "https://github.com/localizejs/node-google-translate",
+  "homepage": "https://github.com/Localize/node-google-translate",
   "repository": {
     "type": "git",
-    "url": "git://github.com/localizejs/node-google-translate"
+    "url": "git://github.com/Localize/node-google-translate"
   },
   "contributors": [
     {
@@ -21,8 +21,8 @@
   ],
   "main": "lib/main.js",
   "dependencies": {
-    "async": "2.1.4",
-    "he": "1.1.0",
+    "async": "2.1.5",
+    "he": "1.1.1",
     "request": "2.79.0",
     "underscore": "1.8.3"
   },
