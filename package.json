@@ -2,7 +2,7 @@
   "author": "Brandon Paton <bp@brandonpaton.com>",
   "name": "google-translate",
   "description": "Google Translate API for Node.js",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "homepage": "https://github.com/Localize/node-google-translate",
   "repository": {
     "type": "git",
